@@ -1,5 +1,5 @@
 function getShippingMessage(country, price, deliveryFee) {
-    const makeTransaction = (`Shipping to ${country} will cost ${totalPrice = price + deliveryFee} credits`);
+    const makeTransaction = `Shipping to ${country} will cost ${price + deliveryFee} credits`;
     return makeTransaction;
 }
 console.log(getShippingMessage("Australia", 120, 50));
